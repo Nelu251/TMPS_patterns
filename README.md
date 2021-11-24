@@ -1,4 +1,5 @@
 # TMPS_patterns
+
 **#LAB 1 : Creational**
 -Builder pattern
 For this patern i've chosen to create a lunchOrder object which can be made in different ways using static inner class Builder. To see the example run LunchOrderDemo class.
@@ -10,6 +11,7 @@ For this pattern i though to create a equivalence of a website generator to get 
 To demonstrate this, I though that it would be very costly for a company like Amazon to create a new object for every itme they have in their page. Therefore i've create a Item class which has some basic fields and it implements Cloneable, it is being extended by Movie and Book. 
 In the PrototypeDemo class i've created an registry , movie and a book which are basically excecuting clone method without using the keyword "new" anymore. which is a lot lighter instantiation way though getting a unique instance every time.
 Run PrototypeDemo to see the example.
+
 
 **#Lab 2 : Structural**
 -Adapter pattern
