@@ -1,6 +1,7 @@
 # TMPS_patterns
-
+<br />
 **#LAB 1 : Creational**
+
 -Builder pattern
 For this patern i've chosen to create a lunchOrder object which can be made in different ways using static inner class Builder. To see the example run LunchOrderDemo class.
 
@@ -12,8 +13,9 @@ To demonstrate this, I though that it would be very costly for a company like Am
 In the PrototypeDemo class i've created an registry , movie and a book which are basically excecuting clone method without using the keyword "new" anymore. which is a lot lighter instantiation way though getting a unique instance every time.
 Run PrototypeDemo to see the example.
 
-
+<br />
 **#Lab 2 : Structural**
+<br />
 -Adapter pattern
 For this eample I've built a list of employees that I'm gonna obtain from two different data sources(database and ldap). I have a Employee interface which is being implemented by EmployeeDb. The problems comes that EmployeeLdap doesnt implement it and it has slightly differently fields. So in order to fix this i used an adapter to store employee in the list (EmployeeAdapterLdap).
 Run AdapterDemo to see the example.
