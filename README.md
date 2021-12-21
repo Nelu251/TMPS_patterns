@@ -34,4 +34,26 @@ Run CompositeMenuDemo to see the example.
 To make use of this pattern, I've thought of building a sandwich. So as we are making our sanwich we are apending more ingrediends to it(DressignDecorator, MeatDecorator, DressingDecorator) through our composition.
 Run DecoratorSanwichDemo to see the example.
 
+<br />
+**Lab 3 : Behavioral**
+<br />
+-Chain of Responsability pattern
 
+To demonstrate this pattern I've implemented a real world example. I added a director, a VP and a CEO.
+For purchase approvals, it has to go through that hierarchy. There's certain things that a director can approve.
+But when it gets to a certain dollar amount or a certain type of purchase, a VP can approve. And then if it's above that,
+only a CEO can approve.
+So as a director, my successor is the VP, Crystal and Crystal. As a VP, the successor is the CEO and that is Jeff. All of them: director, VP and CEO 
+are going to inherit from the handler. It has a successor and then it has a method for handling the request.
+To see the demo, run ChainOfResponsibilityDemo class.
+
+-Command pattern
+
+To demonstrate this pattern, I've created a light which is the receiver, a swithcer which is the invoker, and then a command to flip the light on and off.
+To see the demo, run CommandDemo class.
+
+-Memento pattern
+
+To demonstrate this pattern I've added Employee as a originator with the option to save and revert employee.Also there is EmployeeMemento as the actual memento
+where we can set the state through the actual constructor and get from get methods.
+To see the demo run MementoDemo class.
